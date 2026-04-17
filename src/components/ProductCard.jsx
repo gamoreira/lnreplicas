@@ -79,12 +79,12 @@ export default function ProductCard({ product, delay = 0 }) {
             </div>
           </div>
 
-          {/* Info */}
-          <div className="p-4">
-            <h3 className="font-display text-pearl text-base leading-snug mb-1 group-hover:text-champagne transition-colors duration-300">
+          {/* Info — altura fixa para todos os cards ficarem iguais */}
+          <div className="p-4 flex flex-col" style={{ minHeight: '108px' }}>
+            <h3 className="font-display text-pearl text-base leading-snug mb-1 group-hover:text-champagne transition-colors duration-300 line-clamp-2">
               {product.name}
             </h3>
-            <div className="flex items-baseline gap-2 mt-2">
+            <div className="flex items-baseline gap-2 mt-auto pt-2">
               <span className="gold-text font-body font-bold text-lg">
                 {formatPrice(product.price)}
               </span>
@@ -94,11 +94,13 @@ export default function ProductCard({ product, delay = 0 }) {
                 </span>
               )}
             </div>
-            {product.originalPrice && (
-              <p className="text-green-400 text-xs font-body mt-0.5">
-                Economize {formatPrice(product.originalPrice - product.price)}
-              </p>
-            )}
+            <p className="text-xs font-body mt-0.5" style={{ minHeight: '16px' }}>
+              {product.originalPrice ? (
+                <span className="text-green-400">
+                  Economize {formatPrice(product.originalPrice - product.price)}
+                </span>
+              ) : null}
+            </p>
           </div>
         </div>
       </Link>
