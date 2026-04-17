@@ -77,7 +77,7 @@ function HeroSection() {
         >
           <span className="inline-flex items-center gap-2 text-gold/70 font-body text-xs tracking-[0.4em] uppercase">
             <Sparkles size={12} />
-            Coleção Exclusiva 2024
+            Coleção Exclusiva 2026
             <Sparkles size={12} />
           </span>
         </motion.div>
