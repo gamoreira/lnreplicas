@@ -96,7 +96,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&q=80',
     images: [
       'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&q=80',
-      'https://images.unsplash.com/photo-1548171916-c8fd3b7ac4a0?w=600&q=80',
+      'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=600&q=80',
     ],
     badge: 'MAIS VENDIDO',
     isNew: false,
@@ -189,9 +189,9 @@ export const products = [
     category: 'pulseiras',
     price: 199.90,
     originalPrice: 260.00,
-    image: 'https://images.unsplash.com/photo-1548171916-c8fd3b7ac4a0?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80',
     images: [
-      'https://images.unsplash.com/photo-1548171916-c8fd3b7ac4a0?w=600&q=80',
+      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80',
     ],
     badge: 'PROMOÇÃO',
     isNew: false,
@@ -208,9 +208,9 @@ export const products = [
     category: 'relogios',
     price: 389.90,
     originalPrice: null,
-    image: 'https://images.unsplash.com/photo-1548171916-c8fd3b7ac4a0?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&q=80',
     images: [
-      'https://images.unsplash.com/photo-1548171916-c8fd3b7ac4a0?w=600&q=80',
+      'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&q=80',
     ],
     badge: 'NOVO',
     isNew: true,
